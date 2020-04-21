@@ -37,11 +37,10 @@ button {
   height: 42px;
   border-radius: 21px;
   font-weight: 500;
-  transition: transform 1s;
 }
 
 button:hover {
-  transform: scale(1.1);
+  background-color: #f34156;
 }
 
 button:focus,
@@ -145,11 +144,6 @@ a:focus {
   width: 100%;
   background-image: url("./imagenes/fondo.svg");
   position: absolute;
-  transition: transform 0.5s;
-}
-
-.background-image:hover {
-  transform: scale(1.1);
 }
 
 .banner-container__main {
@@ -195,11 +189,10 @@ a:focus {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: transform 0.5s;
 }
 
 .banner-container__scroll:hover {
-  transform: translateY(-10px);
+  bottom: 36px;
 }
 
 .banner-container__scroll > img {
@@ -306,13 +299,7 @@ a:focus {
   margin: 0;
   text-align: center;
   color: var(--color-white);
-  transition: transform 0.5s;
   box-sizing: border-box;
-}
-
-.services-container__topics__card:hover,
-.works-container__topics__card:hover {
-  transform: translateY(-10px);
 }
 
 .services-container__topics__card:nth-child(1) {
@@ -366,9 +353,8 @@ a:focus {
 .experience-container__topics__card__data > i {
   color: var(--color-secondary);
   position: absolute;
-  left: 0;
+  left: -8px;
   top: 0;
-  transform: translateX(-50%);
   background-color: white;
 }
 
@@ -428,7 +414,6 @@ a:focus {
   top: 0;
   right: 0;
   opacity: 0;
-  transition: opacity 1s;
   display: flex;
   padding: 50px 0px 0px 30px;
   box-sizing: border-box;
